@@ -1751,15 +1751,35 @@
                     <a href="#contact" class="learn-more">Get in touch <span class="arrow-right">→</span></a>
                 </div>
                 <div class="about-image">
-<iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/EvJvU-v0xNI?autoplay=1&loop=1&playlist=EvJvU-v0xNI&mute=1" 
-    frameborder="0" 
-    allow="autoplay; encrypted-media" 
-    allowfullscreen>
-</iframe>
+<div class="video-container">
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube-nocookie.com/embed/zUHHLTdHp7I?si=xILpkTGeWjNmk47X&amp;controls=0&amp;start=9" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+</div>
+                    <style>
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+}
 
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
                 </div>
             </div>
         </section>
