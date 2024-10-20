@@ -303,7 +303,26 @@
             border-radius: 0.5rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+.hero-text h1, 
+.hero-text img {
+    margin-left: 10px; /* Slight space from the left side */
+}
 
+/* Mobile-Specific Styles */
+@media (max-width: 768px) {
+    .hero-text h1, 
+    .hero-text img {
+        margin-left: 15px; /* Increase space for smaller screens */
+    }
+
+    .container {
+        padding: 10px; /* Add more padding for better layout */
+    }
+
+    .cta-button {
+        margin-top: 10px; /* Ensure button isn't cramped */
+    }
+}
         /* Services section styles */
         .services {
             padding: 4rem 0;
@@ -1635,7 +1654,7 @@
         <div class="hero-text">
             <h1>Elevate Your Web Presence with JetWeb</h1>
             <img
-                src="https://readme-typing-svg.herokuapp.com?font=Roboto&color=%230000FF&lines=Powered+by+JetWebLabs;We+deliver+cutting-edge+web+solutions;For+businesses+of+all+sizes;You+think+we+deliver;100R%25+deadlines+met"
+                src="https://readme-typing-svg.herokuapp.com?font=Roboto&color=%23A0A0A0&lines=Powered+by+JetWebLabs;We+deliver+cutting-edge+web+solutions;For+businesses+of+all+sizes;You+think+we+deliver;100%25+deadlines+met"
                 alt="Typing Animation"
             />
             <a href="#contact" class="cta-button">Get Started</a>
@@ -1645,6 +1664,7 @@
         </div>
     </div>
 </section>
+
 
 
         <section class="parallax-section" style="background-image: url('https://source.unsplash.com/random/1920x1080?technology');">
