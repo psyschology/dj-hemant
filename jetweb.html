@@ -303,7 +303,24 @@
             border-radius: 0.5rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-     
+     /* Mobile-Specific Styles */
+@media (max-width: 768px) {
+    .hero-text h1, 
+    .hero-text img {
+        margin-left: 15px; /* Increase space for smaller screens */
+    }
+    .hero-text p {
+        margin-left: 15px;
+    }
+    .container {
+        padding: 10px; /* Add more padding for better layout */
+    }
+
+    .cta-button {
+        margin-top: 10px;
+        margin-left: 15px; /* Ensure button isn't cramped */
+    }
+}
         /* Services section styles */
         .services {
             padding: 4rem 0;
